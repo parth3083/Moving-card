@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: Futura;
+}
+body{
+    overflow: hidden;
+    background-color: rgb(195, 149, 239);
+}
+#rect{
+    /* cursor: pointer; */
+    height: 350px;
+    width: 200px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
